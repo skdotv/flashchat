@@ -1,3 +1,6 @@
+import 'package:chat_system/common/constants.dart';
+import 'package:chat_system/home/home_view.dart';
+import 'package:chat_system/login/login_view.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -13,6 +16,8 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
+      home: HomeView(),
+      routes: routes(context),
     );
   }
 }
