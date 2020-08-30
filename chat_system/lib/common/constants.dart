@@ -6,10 +6,10 @@ import 'package:flutter/material.dart';
 
 Map<String, Widget Function(BuildContext)> routes(BuildContext context) {
   final Map<String, Widget Function(BuildContext)> map = {
-    '/': (context) => LoginView(),
-    '/home': (context) => HomeView(),
-    'registration': (context) => RegistrationView(),
-    'chatview': (context) => ChatView(),
+    '/': (context) => HomeView(),
+    '/login': (context) => LoginView(),
+    '/register': (context) => RegistrationView(),
+    '/chatview': (context) => ChatView(),
   };
   return map;
 }
