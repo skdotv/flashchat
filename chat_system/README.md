@@ -1,6 +1,7 @@
 # chat_system
 
-chat system using firebase
+chat system using firebase cloud firestore
+
 
 ## Getting Started
 
